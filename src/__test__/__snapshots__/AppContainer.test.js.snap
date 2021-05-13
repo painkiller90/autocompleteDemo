@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Container tests should render AppContainer properly without any props 1`] = `
+<body>
+  <div>
+    <div
+      class="app-container"
+    >
+      <form
+        id="search"
+        role="search"
+      >
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          aria-controls="search-results-id"
+          id="input-search"
+          placeholder="Search"
+          type="search"
+        />
+        <ul
+          class="search-result"
+          id="search-results-id"
+        />
+      </form>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`App Container tests should render Tree container properly without any childrens and props 1`] = `
+<body>
+  <div>
+    <div
+      class="app-container"
+    >
+      <form
+        id="search"
+        role="search"
+      >
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          aria-controls="search-results-id"
+          id="input-search"
+          placeholder="Search"
+          type="search"
+        />
+        <ul
+          class="search-result"
+          id="search-results-id"
+        />
+      </form>
+    </div>
+  </div>
+</body>
+`;

@@ -1,8 +1,8 @@
 {
   "name": "autocomplete-demo-aesp",
   "author": {
-    "name" : "Antonio Aguilar",
-    "emal" : "antonio.1avp@gmail.com"
+    "name": "Antonio Aguilar",
+    "emal": "antonio.1avp@gmail.com"
   },
   "version": "0.1.0",
   "private": true,
@@ -39,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "jest-axe": "^4.1.0"
   }
 }
