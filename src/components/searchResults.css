@@ -1,0 +1,36 @@
+.search-result {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-top: 4px;
+}
+
+.search-result__item a {
+    text-decoration: none;
+}
+
+.search-result__item a:visited {
+    color: initial;
+}
+
+.search-result__item {
+    text-align: left;
+    border: 1px solid rgb(38, 128, 246);
+    background-color: rgb(38, 128, 246, 0.2);
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+    width: 100%;
+    max-width: 20rem;
+}
+
+.search-result__item--empty {
+    border: 1px solid rgb(216, 8, 8);
+    background-color: rgb(216, 8, 8, 0.2);
+}
+
+.search-result__item:not(:first-child) {
+    margin-top: .375rem;
+}
